@@ -7,6 +7,6 @@ public class Student {
 
     public static void main(String[] args){
         Student stu1 = new Student();
-        System.out.println("Name "+stu1.getName());
+        System.out.println("Name returned by getName is"+stu1.getName());
     }
 }
