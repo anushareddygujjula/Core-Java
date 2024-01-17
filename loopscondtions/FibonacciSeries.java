@@ -1,3 +1,5 @@
+package loopscondtions;
+
 import java.util.Scanner;
 
 public class FibonacciSeries {
