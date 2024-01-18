@@ -1,4 +1,4 @@
-public class Product {
+public class Products {
     private double price;
     public double getPrice() { //getter
         return price;
@@ -13,7 +13,7 @@ public class Product {
     }
 
     public static void main(String[] args) {
-        Product laptop = new Product();
+        Products laptop = new Products();
 
         laptop.setPrice(1000.0);
 
