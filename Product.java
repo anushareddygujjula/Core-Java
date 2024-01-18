@@ -1,6 +1,6 @@
 public class Product {
     private double price;
-    public double getPrice() { //getter
+    public double getPrices() { //getter
         return price;
     }
 
@@ -8,7 +8,7 @@ public class Product {
         this.price = price;
     }
 
-    public double getPrice(int quantity) {   //overloading
+    public double getPrices(int quantity) {   //overloading
         return price * quantity;
     }
 
@@ -17,9 +17,9 @@ public class Product {
 
         laptop.setPrice(1099.0);
 
-        System.out.println("Price for a single laptop: $" + laptop.getPrice());
+        System.out.println("Price for a single laptop: $" + laptop.getPrices());
 
-        System.out.println("Price for 3 laptops: $" + laptop.getPrice(3));
+        System.out.println("Price for 3 laptops: $" + laptop.getPrices(3));
     }
 
 }
