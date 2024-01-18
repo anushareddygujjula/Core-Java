@@ -18,7 +18,7 @@ class Rectangle extends Shape {
         System.out.println("Drawing a rectangle");
     }
 }
-public class RuntimePolymorphism {
+public class RunTimePolymorphism {
     public static void main(String[] args) {
         Shape shape = new Shape();
 
