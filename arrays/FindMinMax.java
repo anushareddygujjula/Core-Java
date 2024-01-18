@@ -4,7 +4,7 @@ public class FindMinMax {
         // Sample integer array
         int[] numbers = {3,7,1,9,2,65};
 
-        findMinMax(numbers);
+        findMinMax(numbers); // method calling
     }
     public static void findMinMax(int[] arr) {
         if (arr == null || arr.length == 0) {
@@ -16,7 +16,7 @@ public class FindMinMax {
         int max = arr[0];
 
         // Iterate through the array
-        for (int num : arr) {
+        for (int num : arr) { // for each number in array
             if (num < min) {
                 min = num;
             }
