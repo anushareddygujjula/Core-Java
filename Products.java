@@ -15,7 +15,7 @@ public class Products {
     public static void main(String[] args) {
         Products laptop = new Products();
 
-        laptop.setPrice(1000.0);
+        laptop.setPrice(1099.0);
 
         System.out.println("Price for a single laptop: $" + laptop.getPrice());
 
